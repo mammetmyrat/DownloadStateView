@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#0F1013"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.myapplication.DownloadStateView
+        android:id="@+id/download_state"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:progress="70"
+        app:strokeColor="#57585D"
+        app:strokeWidth="2dp"
+        app:downloadPercentText="70%"
+        app:textSize="8sp"
+        app:state="0"
+        app:downloadIcon="@drawable/icon_download"
+        tools:ignore="SmallSp" />
+<!--    <com.example.myapplication.DownloadStateView-->
+<!--        android:id="@+id/download_state1"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:layout_width="32dp"-->
+<!--        android:layout_height="32dp"-->
+<!--        android:progress="70"-->
+<!--        app:strokeColor="#57585D"-->
+<!--        app:strokeWidth="2dp"-->
+<!--        app:downloadPercentText="70%"-->
+<!--        app:textSize="8sp"-->
+<!--        app:state="1"-->
+<!--        app:downloadIcon="@drawable/icon_download_season"-->
+<!--        tools:ignore="SmallSp" />-->
+<!--    <com.example.myapplication.DownloadStateView-->
+<!--        android:id="@+id/download_state2"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:layout_width="32dp"-->
+<!--        android:layout_height="32dp"-->
+<!--        android:progress="70"-->
+<!--        app:strokeColor="#57585D"-->
+<!--        app:strokeWidth="2dp"-->
+<!--        app:downloadPercentText="70%"-->
+<!--        app:textSize="8sp"-->
+<!--        app:state="2"-->
+<!--        app:downloadIcon="@drawable/icon_download_season"-->
+<!--        tools:ignore="SmallSp" />-->
+<!--    <com.example.myapplication.DownloadStateView-->
+<!--        android:id="@+id/download_state3"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:layout_width="32dp"-->
+<!--        android:layout_height="32dp"-->
+<!--        android:progress="70"-->
+<!--        app:strokeColor="#57585D"-->
+<!--        app:strokeWidth="2dp"-->
+<!--        app:downloadPercentText="70%"-->
+<!--        app:textSize="8sp"-->
+<!--        app:state="3"-->
+<!--        app:downloadIcon="@drawable/icon_download_season"-->
+<!--        tools:ignore="SmallSp" />-->
+<!--    <com.example.myapplication.DownloadStateView-->
+<!--        android:id="@+id/download_state4"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:layout_width="32dp"-->
+<!--        android:layout_height="32dp"-->
+<!--        android:progress="70"-->
+<!--        app:strokeColor="#57585D"-->
+<!--        app:strokeWidth="2dp"-->
+<!--        app:downloadPercentText="70%"-->
+<!--        app:textSize="8sp"-->
+<!--        app:state="4"-->
+<!--        app:downloadIcon="@drawable/icon_download_season"-->
+<!--        tools:ignore="SmallSp" />-->
+<!--    <com.example.myapplication.DownloadStateView-->
+<!--        android:id="@+id/download_state5"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:layout_width="32dp"-->
+<!--        android:layout_height="32dp"-->
+<!--        android:progress="70"-->
+<!--        app:strokeColor="#57585D"-->
+<!--        app:strokeWidth="2dp"-->
+<!--        app:downloadPercentText="70%"-->
+<!--        app:textSize="8sp"-->
+<!--        app:state="5"-->
+<!--        app:downloadIcon="@drawable/icon_download_season"-->
+<!--        tools:ignore="SmallSp" />-->
+
+</LinearLayout>

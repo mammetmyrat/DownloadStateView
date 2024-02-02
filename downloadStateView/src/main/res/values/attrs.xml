@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DownloadStateView">
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="strokeColor" format="color"/>
+        <attr name="downloadIcon" format="reference"/>
+        <attr name="state" format="integer"/>
+        <attr name="downloadPercent" format="integer"/>
+        <attr name="downloadPercentText" format="string"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+
+    </declare-styleable>
+</resources>
